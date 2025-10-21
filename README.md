@@ -49,6 +49,19 @@ local Button = Tab:CreateButton({
 local Tab = Window:CreateTab("🎲Misc", 104365492568677) -- Title, Image
 
 local Button = Tab:CreateButton({
+   Name = "Dex",
+   Callback = function()
+   Rayfield:Notify({
+   Title = "Script Executed",
+   Content = "Have Fun !",
+   Duration = 6.5,
+   Image = 104365492568677,
+})
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/peyton2465/Dex/master/out.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
    Name = "Infinite Yield",
    Callback = function()
    Rayfield:Notify({

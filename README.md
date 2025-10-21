@@ -3,8 +3,8 @@ local Window = Rayfield:CreateWindow({
    Name = "🎩JHub🎩 | 30+ Games | v4.2.5 | Whitelisted ☑️",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "Juju Hub is loading...",
-   LoadingSubtitle = "v4.2.1",
-   Theme = "Green",
+   LoadingSubtitle = "v4.2.5",
+   Theme = "AmberGlow",
    DisableRayfieldPrompts = true,
    DisableBuildWarnings = true, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
 
@@ -35,7 +35,7 @@ local Tab = Window:CreateTab("📜Welcome",104365492568677) -- Title, Image
 
 local Paragraph = Tab:CreateParagraph({Title = "Welcome !", Content = "If you need any help join : https://discord.gg/Q5MZxNDtWa"})
 
-local Paragraph = Tab:CreateParagraph({Title = "V4.2.5", Content = "Updated on 06/22/2025"})
+local Paragraph = Tab:CreateParagraph({Title = "V4.2.5", Content = "Updated on 10/21/2025"})
 
 local Paragraph = Tab:CreateParagraph({Title = "More Updates", Content = "Juju Hub is updated weekly if not, get the latest version on the discord : https://discord.gg/Q5MZxNDtWa"})
 
